@@ -61,5 +61,5 @@ tqdm==4.62.1
 transformers @ git+https://github.com/huggingface/transformers@6f14eab50b702953d0e602339e16c7adee316004
 typing-extensions==3.10.0.0
 urllib3==1.26.6
-Werkzeug==2.0.1
+Werkzeug==3.1.4
 zipp==3.5.0
