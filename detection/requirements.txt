@@ -7,7 +7,7 @@ charset-normalizer==2.0.4
 click==8.0.1
 cycler==0.10.0
 Cython==0.29.24
-filelock==3.0.12
+filelock==3.20.3
 google-auth==1.35.0
 google-auth-oauthlib==0.4.5
 grpcio==1.39.0
@@ -60,6 +60,7 @@ tokenizers==0.10.3
 tqdm==4.62.1
 transformers @ git+https://github.com/huggingface/transformers@6f14eab50b702953d0e602339e16c7adee316004
 typing-extensions==3.10.0.0
-urllib3==1.26.6
-Werkzeug==2.0.1
+urllib3==2.6.3
+Werkzeug==3.1.5
 zipp==3.5.0
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
