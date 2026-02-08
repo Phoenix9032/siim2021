@@ -8,3 +8,4 @@ numpy
 pycocotools>=2.0.2
 
 omegaconf>=2.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
